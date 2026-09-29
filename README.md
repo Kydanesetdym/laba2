@@ -1,5 +1,5 @@
-'''
 # Задача 1
+'''
 def convert_types(data):
     result = []
     for item in data:
@@ -19,7 +19,7 @@ def convert_types(data):
         else:
             result.append(str(item))
     return result
-
+'''
 
 # Задача 2
 def swap_values(a, b):
