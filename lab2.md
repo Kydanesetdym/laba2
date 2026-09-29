@@ -1,10 +1,9 @@
-[laba2.py](https://github.com/user-attachments/files/32804198/laba2.py)
+
 # Задача 1
 ```
 def convert_types(data):
     result = []
     for item in data:
-        # bool является подклассом int в Python, поэтому проверяем его первым
         if isinstance(item, bool):
             result.append(str(item))
         elif isinstance(item, (int, float)):
